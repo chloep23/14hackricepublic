@@ -7,13 +7,13 @@ export default function App(){
     {/* -------------- HEADER --------------- */} 
       <div className = "flex flex-col h-auto w-2/3 mx-auto mt-10">
       {/* -------------- TITLE IMAGE --------------- */}
-      <a href="https://mlh.io/" target="_blank" rel="noopener noreferrer">
-        <img
-          src="/assets/mlh-logo-white.png"
-          alt="Icon"
-          className="absolute top-3 right-3 m-4 w-auto h-16"
-        />
-      </a>
+        <a href="https://mlh.io/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="/assets/mlh-logo-white.png"
+            alt="Icon"
+            className="absolute top-3 right-3 m-4 w-auto h-16"
+          />
+        </a>
         <img 
           src="/assets/hr_header.png"
           alt="hackrice logo">
