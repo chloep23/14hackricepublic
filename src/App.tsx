@@ -2,7 +2,6 @@ import React from 'react';
 import styled, {keyframes} from 'styled-components';
 import './index.css';
 import header from "./hr_header.png";
-import mlh_logo from "./mlh-logo-white.png"
 
 const flash = keyframes`
   0%, 100% {
@@ -28,13 +27,10 @@ const FlashingText = styled.h1`
 export default function App(){
   return (
     <div className="bg-black">
-      <a href="https://mlh.io/" target="_blank" rel="noopener noreferrer">
-        <img
-          src={mlh_logo}
-          alt="Icon"
-          className="absolute top-3 right-3 m-4 w-auto h-8 sm:h-16"
-        />
-      </a>
+      <a id="mlh-trust-badge" className="absolute top-3 right-4 m-4 w-32 h-auto" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noopener noreferrer">
+        <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg" alt="Major League Hacking 2025 Hackathon Season">
+          </img>
+        </a>
     {/* -------------- HEADER --------------- */} 
       <div className = "flex flex-col p-0.5 h-auto w-96 mt-20 md:mt-28 sm:w-2/3 mx-auto sm:mt-10">
       {/* -------------- TITLE IMAGE --------------- */}
