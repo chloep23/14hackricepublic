@@ -27,7 +27,7 @@ const FlashingText = styled.h1`
 export default function App(){
   return (
     <div className="bg-black">
-      <a id="mlh-trust-badge" className="absolute top-0 right-1 sm:top-3 sm:right-4 m-4 w-16 h-auto md:w-24 sm:w-32" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noopener noreferrer">
+      <a id="mlh-trust-badge" className="absolute top-0 right-1 sm:top-3 sm:right-4 m-4 w-16 h-auto md:w-24 lg:w-36" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noopener noreferrer">
         <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg" alt="Major League Hacking 2025 Hackathon Season">
           </img>
         </a>
