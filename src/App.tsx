@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './index.css';
+import header from './hackricelogo.png';
 
 interface FAQItem {
   question: string;
@@ -66,7 +67,7 @@ export default function App(){
       <div id="home" className="mt-28 mb-20 h-screen flex flex-col items-center justify-center scroll-mt-24">
         {/* -------------- COVER IMAGE --------------- */}
         <div className = "h-auto w-full sm:w-2/3 mx-auto">
-          <img src="/assets/hackricelogo.PNG" alt="hackrice logo"></img>
+          <img src= {header} alt="hackrice logo"></img>
         </div>
       </div>
       
