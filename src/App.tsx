@@ -48,7 +48,7 @@ export default function App(){
         </div>
         <h1 className = "sm:max-w-full max-w-56 m-auto leading-10 text-center text-white font-start2P text-9xl sm:mt-40 mt-20"><FlashingText>COMING</FlashingText></h1>
         <h1 className = "sm:max-w-full max-w-56 m-auto leading-10 text-center text-white font-start2P text-9xl sm:mt-14 mt-7"><FlashingText>SOON</FlashingText></h1>
-        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="sm:mt-40 mt-20 mx-auto pb-10 text-center md:text-xl font-bold text-blue-800 hover:text-white">MLH Code of Conduct</a>
+        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer" className="sm:mt-40 mt-20 mx-auto pb-10 text-center md:text-xl font-bold text-blue-800 hover:text-white">MLH Code of Conduct</a>
       </div>
     </div> 
     
