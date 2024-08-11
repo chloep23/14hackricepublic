@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './index.css';
 import header from './hackricelogo.png';
+import NORDsponsor1 from './NORD_NordPass_logo.png';
+import NORDsponsor2 from './NORD_NordVPN_logo.png';
+
 
 interface FAQItem {
   question: string;
@@ -284,7 +287,7 @@ export default function App(){
       </div>
       {/* --------------- TRACKS --------------- */}
       <div id="tracks" className="mb-40 bg-black flex flex-col items-center justify-center scroll-mt-24">
-        <div className = "flex flex-col w-3/5 mx-auto">
+        <div className = "flex flex-col w-1/2 mx-auto">
           <h1 className = "text-white font-extrabold text-4xl text-center ">Tracks</h1>
           <h2 className=" text-blue-800 font-extrabold text-xl text-center mt-5">Power Up With Our Tracks</h2>
               <div className = "grid grid-cols-4 mt-10">
@@ -343,7 +346,7 @@ export default function App(){
             </div>
             <div className = "relative flex flex-col w-56 h-56 mx-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src="/assets/sponsors/NORD_Nordpass_logo.png" alt="nordpass" className="w-48 h-auto"/>
+                <img src={NORDsponsor1} alt="nordpass" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
@@ -354,7 +357,7 @@ export default function App(){
              {/* --------------- ROW 2 --------------- */}
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src="/assets/sponsors/NORD_NordVPN_Logo.png" alt="nordvpn" className="w-80 h-auto"/>
+                <img src={NORDsponsor2} alt="nordvpn" className="w-80 h-auto"/>
               </div>
             </div>
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
