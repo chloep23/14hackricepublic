@@ -336,17 +336,17 @@ export default function App(){
              {/* --------------- ROW 1 --------------- */}
             <div className = "relative flex flex-col w-56 h-56 mx-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src="/assets/sponsors/VEDO_logo.png" alt="vedo" className="w-40 h-auto"/>
+                <img src="/assets/sponsors/capitalone_white_logo.png" alt="capitalone" className="w-40 h-auto"/>
               </div>
             </div>
             <div className = "relative flex flex-col w-56 h-56 mx-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-40 h-auto"/>
+                <img src="/assets/sponsors/paycom-logo-white.png" alt="paycom" className="w-40 h-auto"/>
               </div>
             </div>
             <div className = "relative flex flex-col w-56 h-56 mx-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src={NORDsponsor1} alt="nordpass" className="w-48 h-auto"/>
+                <img src="/assets/sponsors/chevron_white_logo.png" alt="chevron" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
@@ -362,23 +362,33 @@ export default function App(){
             </div>
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src="/assets/sponsors/Mathworks_logo.png" alt="kenkennedy" className="w-48 h-auto"/>
-              </div>
-            </div>
-            <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
-              <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
                 <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
+                <img src="/assets/sponsors/VEDO_logo.png" alt="vedo" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
+              <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
+                <img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-48 h-auto"/>
               </div>
             </div>
             {/* --------------- ROW 3 --------------- */}
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
-                <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
+                <img src="/assets/sponsors/kenkennedywhitelogo.png" alt="kenkennedy" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex flex-col w-56 h-56 mx-auto items-center justify-center">
+              <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
+                <img src={NORDsponsor1} alt="nordpass" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex flex-col w-56 h-56 mx-auto items-center justify-center">
+              <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
+                <img src="/assets/sponsors/REA-Logo_Formal.png" alt="rea" className="w-48 h-auto"/>
               </div>
             </div>
           </div>
