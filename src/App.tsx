@@ -59,7 +59,7 @@ export default function App(){
   }
 
   return (
-    <div className="bg-black flex flex-col h-screen w-screen mx-auto left-0 right-0">
+    <div className="bg-black flex flex-col h-auto w-screen mx-auto left-0 right-0">
       <a id="mlh-trust-badge" className="z-20 absolute top-0 right-1 sm:top-3 sm:right-4 m-4 w-16 h-auto md:w-24 lg:w-36" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noopener noreferrer">
         <img 
           src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg" 
@@ -67,7 +67,7 @@ export default function App(){
         </img>
       </a>
  {/* -------------- HEADER --------------- */} 
-      <div id="home" className="mt-28 mb-20 h-screen flex flex-col items-center justify-center scroll-mt-24">
+      <div id="home" className="h-screen flex flex-col items-center justify-center scroll-mt-24">
         {/* -------------- COVER IMAGE --------------- */}
         <div className = "h-auto w-full sm:w-2/3 mx-auto">
           <img src= {header} alt="hackrice logo"></img>
@@ -75,7 +75,7 @@ export default function App(){
       </div>
       
   {/* -------------- ABOUT --------------- */}
-      <div id="about" className="mb-20 flex flex-col h-screen mx-auto left-0 right-0 items-center scroll-mt-24">
+      <div id="about" className="flex flex-col h-screen mx-auto left-0 right-0 items-center scroll-mt-24">
         <h1 className=" text-white font-extrabold text-4xl text-center">About</h1>
         <h2 className=" text-blue-800 text-opacity-90 font-extrabold text-xl text-center mt-3">Chomp Through Code</h2>
           <div className="grid grid-cols-2 gap-8 ml-28 mt-10">
@@ -117,7 +117,7 @@ export default function App(){
       </div>
       
       {/* -------------- SCHEDULE --------------- */}
-      <div id="schedule" className="mb-20 flex flex-col scroll-mt-24">
+      <div id="schedule" className="mb-73 h-screen flex flex-col scroll-mt-24">
         <h1 className = " text-white font-extrabold text-4xl text-center ">Schedule</h1>
         <h2 className=" text-yellow-300/85 font-extrabold text-xl text-center mt-5">Munch Your Way Through The Day</h2>
         <div className="grid grid-cols-3 gap-6 mt-10 mb-10 ml-40 mr-40 mx-auto">
@@ -286,7 +286,7 @@ export default function App(){
         </div>
       </div>
       {/* --------------- TRACKS --------------- */}
-      <div id="tracks" className="mb-40 bg-black flex flex-col items-center justify-center scroll-mt-24">
+      <div id="tracks" className="mb-24 h-screen bg-black flex flex-col items-center justify-center scroll-mt-24">
         <div className = "flex flex-col w-1/2 mx-auto">
           <h1 className = "text-white font-extrabold text-4xl text-center ">Tracks</h1>
           <h2 className=" text-blue-800 font-extrabold text-xl text-center mt-5">Power Up With Our Tracks</h2>
@@ -328,9 +328,9 @@ export default function App(){
         </div>
       </div>
       {/* --------------- SPONSORS --------------- */}
-      <div id="sponsors" className="mb-48 bg-black flex flex-col items-center justify-center scroll-mt-24">
+      <div id="sponsors" className="h-screen mb-36 bg-black flex flex-col items-center justify-center scroll-mt-24">
       <h1 className = "text-white font-extrabold text-4xl text-center ">Sponsors</h1>
-      <h2 className=" text-orange-800 font-extrabold text-xl text-center mt-5 mb-5">Level Up With Our Sponsors</h2>
+      <h2 className=" text-orange-800 font-extrabold text-xl text-center mt-5">Level Up With Our Sponsors</h2>
         <div className = "flex flex-col w-3/4 mx-auto">
           <div className = "grid grid-cols-4 mt-8">
              {/* --------------- ROW 1 --------------- */}
@@ -401,7 +401,7 @@ export default function App(){
           </div>
       </div>
       {/* --------------- FAQ --------------- */}
-      <div id="faq" className="mb-48 scroll-mt-24">
+      <div id="faq" className="scroll-mt-24">
         <h1 className = "text-white font-extrabold text-4xl text-center">FAQ</h1>
         <h1 className = "text-yellow-300/85 font-extrabold mt-3 text-xl text-center -mb-8">Email officialhackrice@gmail.com For Questions!</h1>
         return(
