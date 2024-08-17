@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import './index.css';
 import header from './hackricelogo.png';
 import NORDsponsor1 from './NORD_NordPass_logo.png';
@@ -58,6 +58,40 @@ export default function App(){
     setOpenIndex(openIndex === index ? null : index);
   }
 
+  const texts = useMemo(() => [
+    "Chomp Through Code",
+    "Munch Your Way Through The Day",
+    "Power Up With Our Tracks",
+    "Level Up With Our Sponsors",
+    "Email officialhackrice@gmail.com For Questions!"
+  ], []); 
+  const speed = 100; 
+
+  const [displayedTexts, setDisplayedTexts] = useState<string[]>(Array(texts.length).fill('')); // Track displayed text for each string
+  const [currentTextIndex, setCurrentTextIndex] = useState(0); // Track the current text being typed
+
+  useEffect(() => {
+    let index = 0;
+
+    const interval = setInterval(() => {
+      if (index < texts[currentTextIndex].length) {
+        setDisplayedTexts((prev) => {
+          const newDisplayedTexts = [...prev];
+          newDisplayedTexts[currentTextIndex] = texts[currentTextIndex].slice(0, index + 1);
+          return newDisplayedTexts;
+        });
+        index++;
+      } else {
+        clearInterval(interval);
+        if (currentTextIndex < texts.length - 1) {
+          setTimeout(() => setCurrentTextIndex(currentTextIndex + 1), speed); // Move to the next text after a short delay
+        }
+      }
+    }, speed);
+
+    return () => clearInterval(interval);
+  }, [currentTextIndex, texts, speed]);
+
   return (
     <div className="bg-black flex flex-col h-auto w-screen mx-auto left-0 right-0">
       <a id="mlh-trust-badge" className="z-20 absolute top-0 right-1 sm:top-3 sm:right-4 m-4 w-16 h-auto md:w-24 lg:w-36" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noopener noreferrer">
@@ -77,7 +111,9 @@ export default function App(){
   {/* -------------- ABOUT --------------- */}
       <div id="about" className="flex flex-col h-screen mx-auto left-0 right-0 items-center scroll-mt-24">
         <h1 className=" text-white font-extrabold text-4xl text-center">About</h1>
-        <h2 className=" text-blue-800 text-opacity-90 font-extrabold text-xl text-center mt-3">Chomp Through Code</h2>
+        <h2 className="text-blue-800 text-opacity-90 font-extrabold text-xl text-center mt-3">
+        {displayedTexts[0]}
+        </h2>
           <div className="grid grid-cols-2 gap-8 ml-28 mt-10">
 
           {/* -------------- INFORMATION --------------- */}
@@ -119,7 +155,9 @@ export default function App(){
       {/* -------------- SCHEDULE --------------- */}
       <div id="schedule" className="mb-73 h-screen flex flex-col scroll-mt-24">
         <h1 className = " text-white font-extrabold text-4xl text-center ">Schedule</h1>
-        <h2 className=" text-yellow-300/85 font-extrabold text-xl text-center mt-5">Munch Your Way Through The Day</h2>
+        <h2 className=" text-yellow-300/85 font-extrabold text-xl text-center mt-5">
+          {displayedTexts[1]}
+        </h2>
         <div className="grid grid-cols-3 gap-6 mt-10 mb-10 ml-40 mr-40 mx-auto">
           {/* -------------- FRIDAY --------------- */}
           <div className="bg-black flex flex-col items-center rounded-lg">
@@ -289,7 +327,9 @@ export default function App(){
       <div id="tracks" className="mb-24 h-screen bg-black flex flex-col items-center justify-center scroll-mt-24">
         <div className = "flex flex-col w-1/2 mx-auto">
           <h1 className = "text-white font-extrabold text-4xl text-center ">Tracks</h1>
-          <h2 className=" text-blue-800 font-extrabold text-xl text-center mt-5">Power Up With Our Tracks</h2>
+          <h2 className=" text-blue-800 font-extrabold text-xl text-center mt-5">
+            {displayedTexts[2]}
+          </h2>
               <div className = "grid grid-cols-4 mt-10">
                 <div className = "relative flex flex-col col-start-2 col-span-2 w-72 h-40 mx-auto items-center justify-center">
                   <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-72 h-44 flex flex-col items-center justify-center"></div>
@@ -330,7 +370,9 @@ export default function App(){
       {/* --------------- SPONSORS --------------- */}
       <div id="sponsors" className="h-screen mb-36 bg-black flex flex-col items-center justify-center scroll-mt-24">
       <h1 className = "text-white font-extrabold text-4xl text-center ">Sponsors</h1>
-      <h2 className=" text-orange-800 font-extrabold text-xl text-center mt-5">Level Up With Our Sponsors</h2>
+      <h2 className=" text-orange-800 font-extrabold text-xl text-center mt-5">
+        {displayedTexts[3]}
+      </h2>
         <div className = "flex flex-col w-3/4 mx-auto">
           <div className = "grid grid-cols-4 mt-8">
              {/* --------------- ROW 1 --------------- */}
@@ -403,7 +445,9 @@ export default function App(){
       {/* --------------- FAQ --------------- */}
       <div id="faq" className="scroll-mt-24">
         <h1 className = "text-white font-extrabold text-4xl text-center">FAQ</h1>
-        <h1 className = "text-yellow-300/85 font-extrabold mt-3 text-xl text-center -mb-8">Email officialhackrice@gmail.com For Questions!</h1>
+        <h1 className = "text-yellow-300/85 font-extrabold mt-3 text-xl text-center -mb-8">
+          {displayedTexts[4]}
+        </h1>
         return(
           <ul>
             {faqData.map((item, index) => {
