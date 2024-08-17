@@ -402,7 +402,6 @@ export default function App(){
                 <img src="/assets/sponsors/roblox_white.png" alt="roblox" className="w-48 h-auto"/>
               </div>
             </div>
-            
             <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
                 <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
@@ -437,6 +436,12 @@ export default function App(){
             <div className = "relative flex flex-col w-56 h-56 mx-auto items-center justify-center">
               <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
                 <img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-48 h-auto"/>
+              </div>
+            </div>
+            {/* --------------- ROW 4 --------------- */}
+            <div className = "relative flex flex-col w-56 h-56 m-auto items-center justify-center">
+              <div className = "absolute outline bg-orange-800 bg-opacity-15 outline-orange-800 rounded-xl w-60 h-40 flex flex-col items-center justify-center">
+                <img src="/assets/sponsors/standout_white.png" alt="standout" className="w-48 h-auto"/>
               </div>
             </div>
           </div>
