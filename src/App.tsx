@@ -145,7 +145,7 @@ export default function App(){
               <div className = "absolute flex flex-col items-center justify-center bg-black  bg-opacity-75 ml-12 mt-10 rounded-xl p-3 h-80 w-80">
                 <h1 className = "text-center text-white text-2xl font-medium">September 20-22, 2024</h1> 
                 <h2 className = "text-center text-white text-2xl mt-6 font-medium">Rice Memorial Center <br/> @ Rice University</h2>
-                <a className="flex items-center justify-center hover:outline-orange-600/40 bg-blue-800 hover:bg-orange-600/15 bg-opacity-20 outline mt-6 text-2xl text-center font-bold outline-blue-800 text-white rounded-xl h-14 w-40" href="https://docs.google.com/forms/d/e/1FAIpQLSd1gADwnj7PzFoeItHl3euH8QRYT42ywjV5bWp0hLXvaCtIww/viewform?usp=sf_link" target="_blank" rel="noreferrer"> apply now </a> 
+                <a className="flex items-center justify-center hover:outline-orange-600/40 bg-blue-800 hover:bg-orange-600/15 bg-opacity-20 outline mt-6 text-2xl text-center font-bold outline-blue-800 text-white rounded-xl h-14 w-40" href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer"> apply now </a> 
               </div>
             </div>
           </div>
@@ -173,13 +173,13 @@ export default function App(){
                 <h2 className="ml-3 font-semibold text-right text-lg">4:15 PM </h2>
               </div> Check in for Non-Rice students!!
             </button> 
-            <button className="md:mt-0 mt-5 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
+            <button className="md:mt-0 mt-2 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Company Networking/Recruiting</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">4:30 PM </h2>
               </div> Network with our sponsors at Sammy's!
             </button> 
-            <button className="mt-10 md:mt-0 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
+            <button className="mt-4 md:mt-0 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Opening Ceremony</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">6:30 PM </h2>
@@ -279,7 +279,7 @@ export default function App(){
                 <h2 className="ml-3 font-semibold text-right text-lg">9:00 PM </h2>
               </div> Ready for our third workshop run by the HackRice board?
             </button> 
-            <button className="mt-5 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
+            <button className="mt-7 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Ramen Bar & Glowsticks</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">11:00 PM </h2>
@@ -329,7 +329,7 @@ export default function App(){
           <h2 className=" text-blue-800 font-extrabold text-xl text-center mt-5">
             {displayedTexts[2]}
           </h2>
-              <div className = "grid grid-cols-1 md:grid-cols-4 mt-10">
+              <div className = "grid grid-cols-1 md:grid-cols-3 mt-10">
                 <div className = "relative flex flex-col col-start-2 col-span-2 w-72 h-40 mx-auto items-center justify-center">
                   <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-72 h-44 flex flex-col items-center justify-center"></div>
                   <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-60 h-32 flex flex-col items-center justify-center">
@@ -340,8 +340,8 @@ export default function App(){
                 </div>
               </div>
 
-              <div className = "grid grid-cols-4 mt-2">
-                <div className = "relative flex flex-col col-start-1 col-span-2 w-72 h-40 mt-20 mx-auto items-center justify-center">
+              <div className = "grid grid-cols-1 md:grid-cols-1 mt-2">
+                <div className = "relative flex flex-col col-start-2 col-span-2 w-72 h-40 mt-20 mx-auto items-center justify-center">
                   <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-72 h-44 flex flex-col items-center justify-center"></div>
                   <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-60 h-32 flex flex-col justify-center">
                     <h1 className ="font-semibold text-2xl text-center text-white z-10">Education</h1>
@@ -458,12 +458,12 @@ export default function App(){
             {faqData.map((item, index) => {
               const bgColor = index % 3 === 0 ? 'outline outline-yellow-300/85' : index % 3 === 1 ? 'outline outline-red-800/85' : 'outline outline-blue-800/85';
               return (
-                <li key={index} className="mb-4">
-                  <div onClick={() => toggleAnswer(index)} className="cursor-pointer font-medium text-white ml-16 mr-16 md:ml-72 md:mr-72 mt-10 text-normal">
+                <li key={index} className="mb-4 ml-16 mr-16 md:mx-auto">
+                  <div onClick={() => toggleAnswer(index)} className="cursor-pointer font-medium text-white mt-10 text-normal">
                     {item.question}
                   </div>
                   {openIndex === index && (
-                    <div className={`mt-3 p-4 rounded ${bgColor} text-white ml-16 mr-16 md:ml-72 md:mr-72`}>
+                    <div className={`mt-3 p-4 rounded ${bgColor} text-white`}>
                       {item.answer}
                       {item.link && (
                         <a
