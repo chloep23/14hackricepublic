@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="bg-black p-4 fixed top-0 left-0 w-full z-10">
+    <nav className="bg-black p-4 fixed top-0 left-0 w-screen h-12 z-10 overflow-x-hidden">
       <ul className="flex space-x-8 text-white font-semibold ml-7">
         <li className="relative group">
           <a href="#home" className="text-white hover:text-gray-200">Home</a>
