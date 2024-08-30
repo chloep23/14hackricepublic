@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import './index.css';
-import header from './hackricelogo.png';
 import NORDsponsor1 from './NORD_NordPass_logo.png';
 import NORDsponsor2 from './NORD_NordVPN_logo.png';
 
@@ -104,27 +103,27 @@ export default function App(){
       <div id="home" className="flex flex-col h-screen w-screen justify-center items-center scroll-mt-24">
         {/* -------------- COVER IMAGE --------------- */}
         <div className = "h-auto w-screen md:w-2/3 mx-auto">
-          <img src= {header} alt="hackrice logo"></img>
+          <img src= '/assets/mobilelogo.GIF' alt="hackrice logo"></img>
         </div>
       </div>
       
   {/* -------------- ABOUT --------------- */}
-      <div id="about" className="flex flex-col lg:h-screen mx-auto left-0 right-0 items-center scroll-mt-24">
+      <div id="about" className="mb-20 flex flex-col lg:h-screen mx-auto left-0 right-0 items-center scroll-mt-24">
         <h1 className=" text-white font-extrabold text-3xl lg:text-4xl text-center">About</h1>
         <h2 className="text-blue-800 text-opacity-90 font-extrabold text-xl text-center mt-3 md:ml-0 md:mr-0 ml-10 mr-10">
         {displayedTexts[0]}
         </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:ml-28 mt-10">
+          <div className="lg:grid grid-cols-2 md:gap-8 lg:ml-28 mt-10">
           {/* -------------- INFORMATION --------------- */}
-            <div className="relative flex flex-col h-96 w-full md:w-96 items-center">
-              <div className="absolute outline bg-blue-800 bg-opacity-20 ml-4 mt-5 p-8 outline-blue-800 rounded-xl w-11/12 h-3/4 mx-auto">
-                <h1 className="hidden font-medium text-lg text-center">
+            <div className="relative flex flex-col items-center h-100 w-73 md:h-96 md:w-96">
+              <div className="absolute outline bg-blue-800 bg-opacity-20 ml-4 mt-5 p-8 outline-blue-800 rounded-xl w-11/12 h-99 md:h-3/4 mx-auto">
+                <h1 className="hidden font-medium text-xl text-center">
                   HackRice is Rice University's annual hackathon. It brings together over 400 of the brightest minds in the country to develop & showcase their creative and entrepreneurial talents. 
                   Participants form teams of up to 4 to work on a project — typically software, and sometimes hardware — in an environment designed for collaboration. Teams showcase projects after 36 hours of hacking. 
                   <br/> <br/> This is an excellent opportunity for students to build a network of creators, receive internship & job offers from world-class sponsors, and learn modern tools & systems.
                 </h1>
               </div>
-              <div className="absolute flex outline bg-blue-800 bg-opacity-20 p-8 mr-4 outline-blue-800 rounded-xl w-11/12 h-3/4 mx-auto">
+              <div className="absolute flex outline bg-blue-800 bg-opacity-20 p-8 mr-4 outline-blue-800 rounded-xl w-11/12 h-99 md:h-3/4 mx-auto">
                 <h1 className="text-white font-medium text-lg text-center">
                   HackRice is Rice University's annual hackathon. It brings together over 400 of the brightest minds in the country to develop & showcase their creative and entrepreneurial talents. 
                   Participants form teams of up to 4 to work on a project — typically software, and sometimes hardware — in an environment designed for collaboration. Teams showcase projects after 36 hours of hacking. 
@@ -133,26 +132,26 @@ export default function App(){
               </div>
               </div>
         {/* -------------- APPLY --------------- */}
-            <div className="relative flex flex-col h-96 w-full md:w-96">
-              <div className="absolute outline outline-blue-800 rounded-xl items-center justify-center p-8 h-3/4 w-full md:w-2/3">
+            <div className="relative flex flex-col items-center h-81 w-73 md:w-96 mt-12">
+              <div className="absolute outline outline-blue-800 rounded-xl items-center justify-center mr-4 p-8 h-80 w-11/12 md:h--3/4 md:w-2/3">
                 <h1 className="hidden text-center text-white text-xl font-medium sm:mb-4 mb-3 md:mt-4 lg:block">September 20, 2024 - September 22, 2024</h1> 
                 <h2 className="hidden text-center text-white m-auto text-xl font-medium max-w-64 sm:max-w-full lg:block">Rice Memorial Center @ Rice University</h2>
               </div>
-              <div className = "absolute bg-gradient-to-b from-blue-900/70 via-blue-800/70 to-orange-700/70 bg-opacity-15 ml-6 mt-5 rounded-xl items-center justify-center p-8 h-2/3 w-2/3">
+              <div className = "absolute bg-gradient-to-b from-blue-900/70 via-blue-800/70 to-orange-700/70 bg-opacity-15 ml-4 md:ml-6 mt-5 rounded-xl items-center justify-center p-8 h-80 w-11/12 md:h-2/3 md:w-2/3">
                 <h1 className = "hidden text-center text-white text-xl font-medium sm:mb-4 mb-3 md:mt-4">September 20, 2024 - September 22, 2024</h1> 
                 <h2 className = "hidden text-center text-white m-auto text-xl font-medium max-w-64 sm:max-w-full">Rice Memorial Center @ Rice University</h2>
               </div>
-              <div className = "absolute flex flex-col items-center justify-center bg-black  bg-opacity-75 ml-12 mt-10 rounded-xl p-3 h-80 w-80">
-                <h1 className = "text-center text-white text-2xl font-medium">September 20-22, 2024</h1> 
-                <h2 className = "text-center text-white text-2xl mt-6 font-medium">Rice Memorial Center <br/> @ Rice University</h2>
-                <a className="flex items-center justify-center hover:outline-orange-600/40 bg-blue-800 hover:bg-orange-600/15 bg-opacity-20 outline mt-6 text-2xl text-center font-bold outline-blue-800 text-white rounded-xl h-14 w-40" href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer"> apply now </a> 
+              <div className = "absolute flex flex-col items-center justify-center bg-black bg-opacity-75 ml-5 md:ml-12 mt-9 md:mt-10 rounded-xl p-3 h-72 w-62 md:h-80 md:w-80">
+                <h1 className = "text-center text-white text-xl md:text-2xl font-medium">September 20-22, 2024</h1> 
+                <h2 className = "text-center text-white text-xl md:text-2xl mt-6 font-medium">Rice Memorial Center <br/> @ Rice University</h2>
+                <a className="flex items-center justify-center hover:outline-orange-600/40 bg-blue-800 hover:bg-orange-600/15 bg-opacity-20 outline mt-6 text-xl md:text-2xl text-center font-bold outline-blue-800 text-white rounded-xl h-14 w-36 md:w-40" href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer"> apply now </a> 
               </div>
             </div>
           </div>
       </div>
       
       {/* -------------- SCHEDULE --------------- */}
-      <div id="schedule" className="md:mb-28 h-full flex flex-col scroll-mt-24">
+      <div id="schedule" className="md:mb-28 mb-10 h-full flex flex-col scroll-mt-24">
         <h1 className = " text-white font-extrabold text-4xl text-center ">Schedule</h1>
         <h2 className=" text-yellow-300/85 font-extrabold text-xl text-center mt-5 md:ml-0 md:mr-0 ml-10 mr-10">
           {displayedTexts[1]}
@@ -160,7 +159,7 @@ export default function App(){
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-10 mb-10 mx-4 lg:mx-40">
           {/* -------------- FRIDAY --------------- */}
           <div className="bg-black flex flex-col items-center rounded-lg">
-            <button className="relative text-center text-md bg-black text-yellow-300/85 text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-16 w-52">Friday 9/20</button>
+            <button className="relative text-center text-xl bg-black text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Friday 9/20</button>
             <button className="mt-5 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Rice Student Check-In</h1>
@@ -224,7 +223,7 @@ export default function App(){
           </div>
           {/* -------------- SATURDAY --------------- */}
           <div className="bg-black flex flex-col items-center rounded-lg">
-          <button className="relative text-center text-md bg-black text-yellow-300/85 text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-16 w-52">Saturday 9/21</button>
+          <button className="relative text-center text-xl bg-black text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/21</button>
             <button className="mt-5 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop #1</h1>
@@ -287,8 +286,8 @@ export default function App(){
             </button> 
           </div>
           {/* -------------- SUNDAY --------------- */}
-          <div className="md:mt-0 mt-10 bg-black flex flex-col items-center rounded-lg">
-            <button className="relative text-center text-md bg-black text-yellow-300/85 text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-16 w-52">Sunday 9/22</button>
+          <div className="md:mt-0 mt-6 bg-black flex flex-col items-center rounded-lg">
+            <button className="relative text-center text-xl bg-black text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Sunday 9/22</button>
             <button className="mt-5 bg-black hover:scale-110 text-white text-left rounded-lg p-3 h-20 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Breakfast</h1>
@@ -323,16 +322,16 @@ export default function App(){
         </div>
       </div>
       {/* --------------- TRACKS --------------- */}
-      <div id="tracks" className="md:mb-36 h-full bg-black flex flex-col items-center justify-center scroll-mt-24">
-        <div className = "flex flex-col w-1/2 mx-auto">
+      <div id="tracks" className="mb-28 md:mb-36 h-full bg-black flex flex-col items-center justify-center scroll-mt-24">
+        <div className = "flex flex-col mx-auto">
           <h1 className = "text-white font-extrabold text-4xl text-center ">Tracks</h1>
           <h2 className=" text-blue-800 font-extrabold text-xl text-center mt-5">
             {displayedTexts[2]}
           </h2>
-              <div className = "grid grid-cols-1 md:grid-cols-3 mt-10">
+              <div className = "md:grid grid-cols-4 mt-10">
                 <div className = "relative flex flex-col col-start-2 col-span-2 w-72 h-40 mx-auto items-center justify-center">
-                  <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-72 h-44 flex flex-col items-center justify-center"></div>
-                  <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-60 h-32 flex flex-col items-center justify-center">
+                  <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-65 md:w-72 h-44 flex flex-col items-center justify-center"></div>
+                  <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-56 md:w-60 h-32 flex flex-col items-center justify-center">
                     <h1 className ="mb-3 font-semibold text-2xl text-center text-white">Game <br/> Development</h1>
                   </div>
                   <img className = "absolute mt-36 h-28 w-28" src="/assets/BG_Pacman.png" alt="track1"/>
@@ -340,30 +339,30 @@ export default function App(){
                 </div>
               </div>
 
-              <div className = "grid grid-cols-1 md:grid-cols-1 mt-2">
-                <div className = "relative flex flex-col col-start-2 col-span-2 w-72 h-40 mt-20 mx-auto items-center justify-center">
-                  <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-72 h-44 flex flex-col items-center justify-center"></div>
-                  <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-60 h-32 flex flex-col justify-center">
+              <div className = "md:grid grid-cols-4 mt-2 gap-10">
+                <div className = "relative flex flex-col col-start-2 w-72 h-40 mt-20 mx-auto items-center justify-center">
+                  <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-65 h-44 flex flex-col items-center justify-center"></div>
+                  <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-56 md:w-60 h-32 flex flex-col justify-center">
                     <h1 className ="font-semibold text-2xl text-center text-white z-10">Education</h1>
                   </div>
-                  <img className = "absolute mr-65 mt-10 mb-10 h-28 w-28" src="/assets/BG_Ghost.png" alt="track2"/>
-                  <img className = "absolute mr-65 mt-10 mb-10 h-28 w-28" src="/assets/Pink_Left_Ghost2.png" alt="track2"/>
+                  <img className = "absolute mr-62 md:mr-65 mt-10 mb-10 h-28 w-28" src="/assets/BG_Ghost.png" alt="track2"/>
+                  <img className = "absolute mr-62 md:mr-65 mt-10 mb-10 h-28 w-28" src="/assets/Pink_Left_Ghost2.png" alt="track2"/>
                 </div>
             
-                <div className = "relative flex flex-col col-start-3 col-span-2 w-72 h-40 mt-20 mx-auto items-center justify-center">
-                  <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-72 h-44 flex flex-col items-center justify-center"></div>
-                  <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-60 h-32 flex flex-col justify-center">
+                <div className = "relative flex flex-col col-start-3 w-72 h-40 mt-20 mx-auto items-center justify-center">
+                  <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-65 md:w-72 h-44 flex flex-col items-center justify-center"></div>
+                  <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-56 md:w-60 h-32 flex flex-col justify-center">
                     <h1 className ="font-semibold text-2xl text-center text-white z-10">Healthcare</h1>
                   </div>
-                  <img className = "absolute ml-65 mt-10 mb-10 h-28 w-28" src="/assets/BG_Ghost.png" alt="track2"/>
-                  <img className = "absolute ml-65 mt-10 mb-10 h-28 w-28" src="/assets/Teal_Right_Ghost2.png" alt="track2"/>
+                  <img className = "absolute ml-60 md:ml-65 mt-10 mb-10 h-28 w-28" src="/assets/BG_Ghost.png" alt="track2"/>
+                  <img className = "absolute ml-60 md:ml-65 mt-10 mb-10 h-28 w-28" src="/assets/Teal_Right_Ghost2.png" alt="track2"/>
                 </div>
               </div>
         
         </div>
       </div>
       {/* --------------- SPONSORS --------------- */}
-      <div id="sponsors" className="h-full md:mb-36 bg-black flex flex-col items-center justify-center scroll-mt-24">
+      <div id="sponsors" className="h-full mb-12 md:mb-28 bg-black flex flex-col items-center justify-center scroll-mt-24">
       <h1 className = "text-white font-extrabold text-4xl text-center ">Sponsors</h1>
       <h2 className=" text-orange-800 font-extrabold text-xl text-center mt-5">
         {displayedTexts[3]}
@@ -458,7 +457,7 @@ export default function App(){
             {faqData.map((item, index) => {
               const bgColor = index % 3 === 0 ? 'outline outline-yellow-300/85' : index % 3 === 1 ? 'outline outline-red-800/85' : 'outline outline-blue-800/85';
               return (
-                <li key={index} className="mb-4 ml-16 mr-16 md:mx-auto">
+                <li key={index} className="mb-4 md:ml-48 md:mr-48 mr-16 md:mx-auto">
                   <div onClick={() => toggleAnswer(index)} className="cursor-pointer font-medium text-white mt-10 text-normal">
                     {item.question}
                   </div>
