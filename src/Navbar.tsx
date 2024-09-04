@@ -8,16 +8,16 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-black p-4 fixed top-0 left-0 w-screen h-auto z-10">
+    <nav className="bg-black shadow-md p-4 fixed top-0 left-0 w-screen h-auto z-10">
       <div className="flex justify-between items-center">
         <div className="text-white font-semibold">
           <button
-            className="block sm:hidden text-white text-2xl focus:outline-none"
+            className="block md:hidden text-white text-2xl sm:text-3xl focus:outline-none"
             onClick={toggleDropdown}
           >
             ☰
           </button>
-          <ul className={`sm:flex ${isOpen ? "block" : "hidden"} sm:block space-y-4 sm:space-y-0 sm:space-x-8 mt-4 sm:mt-0`}>
+          <ul className={`md:flex ${isOpen ? "block" : "hidden"} md:block space-y-4 md:space-y-0 md:space-x-8 mt-4 md:mt-0`}>
             <li className="relative group">
               <a href="#home" className="text-white hover:text-gray-200">Home</a>
               <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
