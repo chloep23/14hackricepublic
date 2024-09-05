@@ -102,7 +102,7 @@ export default function App(){
  {/* -------------- HEADER --------------- */} 
       <div id="home" className="flex flex-col h-screen w-screen justify-center items-center scroll-mt-24">
         {/* -------------- COVER IMAGE --------------- */}
-        <div className = "lg:hidden h-auto w-screen lg:w-1/2 lg:mt-5 mx-auto">
+        <div className = "lg:hidden h-auto w-screen md:w-3/4 md:mt-5 mx-auto">
           <img src= '/assets/mobilelogo.GIF' alt="hackrice logo"></img>
         </div>
         <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto">
@@ -159,7 +159,7 @@ export default function App(){
         <h2 className="text-center text-yellow-300/85 font-extrabold text-xl mt-5 ml-10 mr-10 md:ml-0 md:mr-0">
           {displayedTexts[1]}
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 mt-10 mb-10 mx-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-10 mt-10 mb-10 mx-4">
           {/* -------------- FRIDAY --------------- */}
           <div className="flex flex-col bg-black items-center rounded-lg">
             <button className="relative outline outline-yellow-300/85 align-top rounded-xl bg-black text-center text-xl text-yellow-300/85 md:text-2xl font-bold h-12 w-40 md:h-16 md:w-52">Friday 9/20</button>
