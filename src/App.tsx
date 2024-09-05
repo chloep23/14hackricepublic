@@ -102,12 +102,12 @@ export default function App(){
  {/* -------------- HEADER --------------- */} 
       <div id="home" className="flex flex-col h-screen w-screen justify-center items-center scroll-mt-24">
         {/* -------------- COVER IMAGE --------------- */}
-        <div className = "lg:hidden h-auto w-screen lg:w-2/3 mx-auto">
+        <div className = "h-auto w-screen lg:w-1/2 lg:mt-5 mx-auto">
           <img src= '/assets/mobilelogo.GIF' alt="hackrice logo"></img>
         </div>
-        <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto">
+        {/* <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto">
           <img src= '/assets/desktoplogo.GIF' alt="hacklogo"></img>
-        </div>
+        </div> */}
       </div>
       
   {/* -------------- ABOUT --------------- */}
