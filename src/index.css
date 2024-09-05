@@ -9,7 +9,7 @@
   src: url("/public/assets/PressStart2P-Regular.ttf");
 }
 body {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'start2P'

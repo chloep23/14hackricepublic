@@ -106,7 +106,7 @@ export default function App(){
           <img src= '/assets/mobilelogo.GIF' alt="hackrice logo"></img>
         </div>
         <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto">
-          <img src= '/assets/desktoplogo.GIF' alt="hacklogo"></img>
+          <img src= '/desktoplogo.GIF' alt="hacklogo"></img>
         </div>
       </div>
       
@@ -481,7 +481,10 @@ export default function App(){
               );
             })}
           </ul>
-        </div>
+      </div>
+       {/* --------------- COPYRIGHT --------------- */}
+       <h1 className="text-center text-white mt-20">© 2024 HackRice. All Rights Reserved.
+       </h1>
     </div> 
   )
 }
