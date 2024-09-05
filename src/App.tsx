@@ -106,7 +106,7 @@ export default function App(){
           <img src= '/assets/mobilelogo.GIF' alt="hackrice logo"></img>
         </div>
         <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto">
-          <img src= '/assets/desktoplogo.GIF' alt="hackrice logo"></img>
+          <img src= '/assets/desktoplogo.GIF' alt="hacklogo"></img>
         </div>
       </div>
       
