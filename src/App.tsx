@@ -189,12 +189,6 @@ export default function App(){
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Keynote Speaker</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">7:00 PM </h2>
-              </div> Join us for our keynote presentation!
-            </button> 
-            <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
-              <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Dinner</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">7:30 PM </h2>
               </div> Come to Ray Courtyard for dinner!
@@ -213,15 +207,15 @@ export default function App(){
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Arts & Crafts</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">10:00 PM </h2>
-              </div> Refresh your creativity with some arts and crafts!
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Mathworks Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">9:30 PM </h2>
+              </div> Learn useful tools from Mathworks to solve their challenge!
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Snack</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Cookies & Crafts</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">11:00 PM </h2>
-              </div> Join us for a late night snack!
+              </div> Join us for a late night snack with arts and crafts!
             </button> 
           </div>
           {/* -------------- SATURDAY --------------- */}
@@ -229,15 +223,15 @@ export default function App(){
           <button className="relative text-center text-xl bg-black text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/21</button>
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop #1</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">10:00 AM </h2>
-              </div> Join us for our first workshop run by the board!
+                <h1 className="mb-1 font-semibold text-base md:text-lg">MLH GitHub Copilot</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">9:30 AM </h2>
+              </div> Join MLH's GitHub Copilot workshop!
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Typing Tournament</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">11:00 AM </h2>
-              </div> Show off your typing speed at our tournament!
+                <h2 className="ml-3 font-semibold text-right text-lg">11:30 AM </h2>
+              </div> Win a prize at our typing speed tournament!
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
@@ -247,39 +241,27 @@ export default function App(){
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">MathWorks Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">2:00 PM </h2>
-              </div> Join us for a MathWorks workshop!
+                <h1 className="mb-1 font-semibold text-base md:text-lg">CCD Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">1:30 PM </h2>
+              </div> Join us for a Rice CCD workshop!
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Trivia</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Bob Ross Painting</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">3:00 PM </h2>
-              </div> Take a quick break and test your trivia knowledge!
+              </div> Take a break and paint some fun artwork!
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">MLH Workshop</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">4:00 PM </h2>
-              </div> Join us for a MLH workshop!
-            </button> 
-            <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
-              <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop #2</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">6:00 PM </h2>
-              </div> Come to our second workshop run by the HackRice board!
-            </button> 
+                <h1 className="mb-1 font-semibold text-base md:text-lg">AWS Workshop</h1>
+                <h2 className="ml-3 font-semibold text-right text-lg">4:30 PM </h2>
+              </div> Join us for a AI on AWS Cloud Services Workshop!
+            </button>
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Dinner</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">7:30 PM </h2>
               </div> Dinner time!
-            </button> 
-            <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
-              <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop #3</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">9:00 PM </h2>
-              </div> Ready for our third workshop run by the HackRice board?
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">

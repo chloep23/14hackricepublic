@@ -16,7 +16,7 @@ const NavBar: React.FC = () => {
         >
           ☰
         </button>
-        <ul className={`md:flex ${isOpen ? "block" : "hidden"} md:block h-auto space-y-4 md:space-y-0 md:space-x-8 ml-4 mt-48 md:mt-0`}>
+        <ul className={`sm:flex ${isOpen ? "block" : "hidden"} md:block h-auto space-y-4 md:space-y-0 md:space-x-8 ml-4 mt-48 md:mt-0`}>
           <li className="relative group">
             <a href="#home" className="text-white hover:text-gray-200">Home</a>
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
