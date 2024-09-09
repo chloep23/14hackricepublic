@@ -224,7 +224,7 @@ export default function App(){
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">MLH GitHub Copilot</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">9:30 AM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">10:30 AM </h2>
               </div> Join MLH's GitHub Copilot workshop!
             </button> 
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
