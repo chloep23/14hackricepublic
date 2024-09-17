@@ -214,7 +214,7 @@ export default function App(){
             <button className="bg-black hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Cookies & Crafts</h1>
-                <h2 className="ml-3 font-semibold text-right text-lg">11:00 PM </h2>
+                <h2 className="ml-3 font-semibold text-right text-lg">10:30 PM </h2>
               </div> Join us for a late night snack with arts and crafts!
             </button> 
           </div>
@@ -426,6 +426,11 @@ export default function App(){
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/sailywhite.png" alt="saily" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/GFG.png" alt="gfg" className="w-48 h-auto"/>
               </div>
             </div>
           </div>
