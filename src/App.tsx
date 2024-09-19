@@ -433,6 +433,11 @@ export default function App(){
                 <img src="/assets/sponsors/GFG.png" alt="gfg" className="w-48 h-auto"/>
               </div>
             </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/LILIELAB.png" alt="lilielab" className="w-48 h-auto"/>
+              </div>
+            </div>
           </div>
           </div>
       </div>
