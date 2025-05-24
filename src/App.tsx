@@ -92,7 +92,7 @@ export default function App(){
   }, [currentTextIndex, texts, speed]);
 
   return (
-    <div className="flex flex-col justify-center items-center bg-black h-auto w-screen m-auto left-0 right-0 overflow-x-hidden">
+    <div className="flex flex-col justify-center items-center h-auto w-screen m-auto left-0 right-0 overflow-x-hidden">
       <a id="mlh-trust-badge" className="absolute w-20 h-auto z-10 top-0 md:top-0 right-5 md:w-24 lg:w-36" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white" target="_blank" rel="noopener noreferrer">
         <img 
           src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg" 
@@ -103,10 +103,10 @@ export default function App(){
       <div id="home" className="flex flex-col h-screen w-screen justify-center items-center scroll-mt-24">
         {/* -------------- COVER IMAGE --------------- */}
         <div className = "lg:hidden h-auto w-screen md:w-3/4 md:mt-5 mx-auto">
-          <img src= '/assets/mobilelogo.GIF' alt="hackrice logo"></img>
+          <img src= '/assets/hr15logo.png' alt="hackrice logo"></img>
         </div>
         <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto">
-          <img src= '/desktoplogo.GIF' alt="hacklogo"></img>
+          <img src= '/assets/hr15logo.png' alt="hacklogo"></img>
         </div>
       </div>
       
@@ -316,7 +316,7 @@ export default function App(){
               <div className = "md:grid md:grid-cols-4 mt-10">
                 <div className = "relative flex flex-col md:col-start-2 md:col-span-2 w-72 h-40 mx-auto items-center justify-center">
                   <div className = "absolute outline bg-blue-800 bg-opacity-15 outline-blue-800 rounded-xl w-65 md:w-72 h-44 flex flex-col items-center justify-center"></div>
-                  <div className = "absolute outline bg-black outline-blue-800 rounded-xl w-56 md:w-60 h-32 flex flex-col items-center justify-center">
+                  <div className = "absolute outline outline-blue-800 rounded-xl w-56 md:w-60 h-32 flex flex-col items-center justify-center">
                     <h1 className ="mb-3 font-semibold text-2xl text-center text-white">Game <br/> Development</h1>
                   </div>
                   <img className = "absolute mt-36 h-28 w-28" src="/assets/BG_Pacman.png" alt="track1"/>
