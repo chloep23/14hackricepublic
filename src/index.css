@@ -2,16 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-@font-face {
+/* @font-face {
   font-family: "start2P";
-  src: url("/public/assets/PressStart2P-Regular.ttf");
+  src: url("/assets/PressStart2P-Regular.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "Fox Sans Pro";
+  src: url("/public/assets/FoxSansPro-Bold.ttf") format("truetype");
 }
 body {
   margin-bottom: 30px;
-  background-color: #4aa6cb;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  background-color: #0052aa;
+  font-family: "Fox Sans Pro", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'start2P'
     sans-serif;
   -webkit-font-smoothing: antialiased;
