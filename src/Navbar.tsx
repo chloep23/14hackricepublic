@@ -9,7 +9,7 @@ const NavBar: React.FC = () => {
 
   return (
     <nav className="flex justify-between items-center h-16 w-screen p-4 fixed top-0 left-0 z-10">
-      <div className="text-white font-semibold">
+      <div className="text-black font-semibold">
         <button
           className="block md:hidden text-white text-2xl sm:text-3xl focus:outline-none z-20 relative"
           onClick={toggleDropdown}

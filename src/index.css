@@ -16,7 +16,8 @@
 }
 body {
   margin-bottom: 30px;
-  background-color: #0052aa;
+  background-color: white;
+  /* background-color: #0052aa; */
   font-family: "Fox Sans Pro", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'start2P'
     sans-serif;
