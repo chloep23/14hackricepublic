@@ -16,34 +16,34 @@ const NavBar: React.FC = () => {
         >
           ☰
         </button>
-        <ul className={`md:flex ${isOpen ? "block" : "hidden"} md:block md:h-auto h-72 space-y-4 md:space-y-0 md:space-x-8 ml-5 mt-4 md:mt-0 z-10 bg-white md:bg-transparent w-full md:w-auto absolute md:static left-0`}>
+        <ul className={`md:flex ${isOpen ? "block" : "hidden"} md:block md:h-auto h-72 space-y-4 md:space-y-0 md:space-x-8 ml-5 mt-4 md:mt-0 z-10 bg-[#172835] md:bg-transparent w-full md:w-auto absolute md:static left-0`}>
           <li className="relative group">
-            <a href="#home" className="text-black hover:text-gray-200">Home</a>
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
+            <a href="#home" className="text-white hover:text-gray-200">Home</a>
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
           <li className="relative group">
-            <a href="#about" className="text-black hover:text-gray-200">About</a>
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
+            <a href="#about" className="text-white hover:text-gray-200">About</a>
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
           <li className="relative group">
-            <a href="#schedule" className="text-black hover:text-gray-200">Schedule</a>
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
+            <a href="#schedule" className="text-white hover:text-gray-200">Schedule</a>
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
           <li className="relative group">
-            <a href="#tracks" className="text-black hover:text-gray-200">Tracks</a>
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
+            <a href="#tracks" className="text-white hover:text-gray-200">Tracks</a>
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
           <li className="relative group">
-            <a href="#sponsors" className="text-black hover:text-gray-200">Sponsors</a>
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
+            <a href="#sponsors" className="text-white hover:text-gray-200">Sponsors</a>
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
           <li className="relative group">
-            <a href="#faq" className="text-black hover:text-gray-200">FAQ</a>
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
+            <a href="#faq" className="text-white hover:text-gray-200">FAQ</a>
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
           <li className="relative group">
-            <a href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer" className="text-black">Apply</a>
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
+            <a href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer" className="text-white">Apply</a>
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
         </ul>
       </div>

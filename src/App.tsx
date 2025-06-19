@@ -111,12 +111,12 @@ export default function App(){
         <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto">
           <img src= '/assets/hr15logo.png' alt="hacklogo"></img>
         </div>
-        <h1> SEPTEMBER 19-21, 2025</h1>
+        <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-4 mb-8 p-4">SEPTEMBER 19-21, 2025</h1>
       </div>
       
   {/* -------------- ABOUT --------------- */}
-      <div id="about" className="flex flex-col items-center mx-auto left-0 right-0 mb-32 md:mb-44 lg:mb-20 scroll-mt-24">
-        <h1 className=" text-black font-extrabold text-3xl lg:text-4xl text-center">ABOUT</h1>
+      <div id="about" className="flex flex-col items-center mx-auto left-0 right-0 mb-32 md:mb-44 lg:mb-20 scroll-mt-24 mt-16">
+        <h1 className=" text-white font-extrabold text-3xl lg:text-4xl text-center">ABOUT</h1>
         {/* <h2 className="text-black-800 text-opacity-90 font-extrabold text-xl text-center mt-3 md:ml-0 md:mr-0 ml-10 mr-10"> */}
         {/* {displayedTexts[0]} */}
         {/* </h2> */}
@@ -131,7 +131,7 @@ export default function App(){
                 </h1>
               </div>
               <div className="absolute outline bg-opacity-20 outline-white-800 rounded-xl mr-4 p-8 h-99 w-11/12 sm:h-84 md:1/2 lg:h-3/4 mx-auto">
-                <h1 className="text-black font-medium text-lg text-center">
+                <h1 className="text-white font-medium text-lg text-center">
                   HackRice is Rice University's annual hackathon. It brings together over 400 of the brightest minds in the country to develop & showcase their creative and entrepreneurial talents. 
                   Participants form teams of up to 4 to work on a project — typically software, and sometimes hardware — in an environment designed for collaboration. Teams showcase projects after 36 hours of hacking. 
                   <br/> <br/> This is an excellent opportunity for students to build a network of creators, receive internship & job offers from world-class sponsors, and learn modern tools & systems.
@@ -141,16 +141,16 @@ export default function App(){
         {/* -------------- APPLY --------------- */}
             <div className="relative flex flex-col items-center lg:ml-20 mt-10 sm:mt-20 lg:mt-0 h-81 w-81 sm:h-80 sm:w-84 md:w-96 lg:w-81">
               <div className="absolute outline outline-blue-800 rounded-xl mr-4 p-8 h-80 w-11/12 md:h--3/4 md:w-80">
-                <h1 className="invisible text-center text-black text-xl font-medium sm:mb-4 sm:mt-0 md:mt-4 lg:block">September 19, 2025 - September 21, 2025</h1> 
-                <h2 className="invisible text-center text-black text-xl font-medium max-w-64 sm:max-w-full lg:block">Rice Memorial Center @ Rice University</h2>
+                <h1 className="invisible text-center text-white text-xl font-medium sm:mb-4 sm:mt-0 md:mt-4 lg:block">September 19, 2025 - September 21, 2025</h1> 
+                <h2 className="invisible text-center text-white text-xl font-medium max-w-64 sm:max-w-full lg:block">Rice Memorial Center @ Rice University</h2>
               </div>
               <div className = "absolute bg-gradient-to-b from-blue-900/70 via-blue-800/70 to-orange-700/70 bg-opacity-15 rounded-xl ml-4 md:ml-8 mt-4 p-8 h-80 w-11/12 sm:h-81 md:h-81 md:w-81">
-                <h1 className = "invisible text-center text-black text-xl font-medium sm:mb-4 mb-3 md:mt-4">September 19, 2025 - September 21, 2025</h1> 
-                <h2 className = "invisible text-center text-black m-auto text-xl font-medium max-w-64 sm:max-w-full">Rice Memorial Center @ Rice University</h2>
+                <h1 className = "invisible text-center text-white text-xl font-medium sm:mb-4 mb-3 md:mt-4">September 19, 2025 - September 21, 2025</h1> 
+                <h2 className = "invisible text-center text-white m-auto text-xl font-medium max-w-64 sm:max-w-full">Rice Memorial Center @ Rice University</h2>
               </div>
               <div className = "absolute flex flex-col items-center justify-center bg-black bg-opacity-75 rounded-xl ml-5 md:ml-8 mt-8 md:mt-8 p-3 h-72 w-5/6 sm:h-73 sm:w-82 md:h-73 md:w-73">
-                <h1 className = "text-center text-black text-xl sm:text-2xl font-medium">September 19-21, 2025</h1> 
-                <h2 className = "text-center text-black text-xl sm:text-2xl mt-6 font-medium">Rice Memorial Center <br/> @ Rice University</h2>
+                <h1 className = "text-center text-white text-xl sm:text-2xl font-medium">September 19-21, 2025</h1> 
+                <h2 className = "text-center text-white text-xl sm:text-2xl mt-6 font-medium">Rice Memorial Center <br/> @ Rice University</h2>
                 <a className="flex items-center justify-center hover:outline-orange-600/40 bg-blue-800 hover:bg-orange-600/15 bg-opacity-20 outline outline-blue-800 rounded-xl text-center text-black text-xl sm:text-2xl font-bold mt-6 h-14 w-36 sm:w-40" href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer"> apply now </a> 
               </div>
             </div>
@@ -159,7 +159,7 @@ export default function App(){
       
       {/* -------------- SCHEDULE --------------- */}
       <div id="schedule" className="flex flex-col w-11/12 mb-20 scroll-mt-24">
-        <h1 className = "text-center text-black font-extrabold text-4xl">SCHEDULE</h1>
+        <h1 className = "text-center text-white font-extrabold text-4xl">SCHEDULE</h1>
         <h2 className="text-center text-yellow-300/85 font-extrabold text-xl mt-5 ml-10 mr-10 md:ml-0 md:mr-0">
           {/* {displayedTexts[1]} */}
         </h2>
@@ -167,43 +167,43 @@ export default function App(){
           {/* -------------- FRIDAY --------------- */}
           <div className="flex flex-col bg-white items-center rounded-lg">
             <button className="relative outline outline-yellow-300/85 align-top rounded-xl bg-black text-center text-xl text-yellow-300/85 md:text-2xl font-bold h-12 w-40 md:h-16 md:w-52">Friday 9/20</button>
-            <button className="bg-white hover:scale-110 rounded-lg text-black text-left mt-10 md:p-3 w-full">
+            <button className="bg-white hover:scale-110 rounded-lg text-white text-left mt-10 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Rice Student Check-In</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">4:00 PM </h2>
               </div> Check in for Rice Students!
             </button> 
-            <button className=" bg-white hover:scale-110 text-black text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            <button className=" bg-white hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Non-Rice Student Check-In</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">4:15 PM </h2>
               </div> Check in for Non-Rice students!!
             </button> 
-            <button className="bg-white hover:scale-110 text-black text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            <button className="bg-white hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Networking/Recruiting</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">4:30 PM </h2>
               </div> Network with our sponsors at Sammy's!
             </button> 
-            <button className="bg-white hover:scale-110 text-black text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            <button className="bg-white hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Opening Ceremony</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">6:30 PM </h2>
               </div> We will be detailing the tracks/challenges, prizes, sponsorship, and more!
             </button> 
-            <button className="bg-white hover:scale-110 text-black text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            <button className="bg-white hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Dinner</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">7:30 PM </h2>
               </div> Come to Ray Courtyard for dinner!
             </button> 
-            <button className="bg-white hover:scale-110 text-black text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            <button className="bg-white hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Hacking Begins</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">8:00 PM </h2>
               </div> The hackathon begins! Start hacking!
             </button> 
-            <button className="bg-white hover:scale-110 text-black text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            <button className="bg-white hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">First Timer's Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">8:30 PM </h2>
@@ -215,7 +215,7 @@ export default function App(){
                 <h2 className="ml-3 font-semibold text-right text-lg">9:30 PM </h2>
               </div> Build a “smart” fitness tracker using your own mobile device with Mathworks!
             </button> 
-            <button className="bg-white hover:scale-110 text-black text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
+            <button className="bg-white hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Cookies & Crafts</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">10:30 PM </h2>
@@ -313,7 +313,7 @@ export default function App(){
       {/* --------------- TRACKS --------------- */}
       <div id="tracks" className="bg-white flex flex-col items-center justify-center mb-36 md:mb-44 h-full scroll-mt-24">
         <div className = "flex flex-col mx-auto">
-          <h1 className = "text-black font-extrabold text-4xl text-center">TRACKS</h1>
+          <h1 className = "text-white font-extrabold text-4xl text-center">TRACKS</h1>
           <h2 className=" text-blue-800 font-extrabold text-xl text-center mt-5">
             {/* {displayedTexts[2]} */}
           </h2>
@@ -351,103 +351,118 @@ export default function App(){
         </div>
       </div>
       {/* --------------- SPONSORS --------------- */}
-      <div id="sponsors" className="bg-black flex flex-col items-center justify-center mb-28 md:mb-32 h-full scroll-mt-24">
-      <h1 className = "text-black font-extrabold text-4xl text-center ">Sponsors</h1>
+      <div id="sponsors" className="flex flex-col items-center justify-center mb-28 md:mb-32 h-full scroll-mt-24">
+      <h1 className = "text-white font-extrabold text-4xl text-center ">Sponsors</h1>
       <h2 className=" text-orange-800 font-extrabold text-xl text-center mt-5">
-        {displayedTexts[3]}
+        {/* {displayedTexts[3]} */}
       </h2>
-        <div className = "flex flex-col mx-auto">
+        <div className = "flex flex-col xmx-auto">
           <div className = "grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 mt-8 gap-x-7 lg:gap-x-12">
              {/* --------------- ROW 1 --------------- */}
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/capitalone_white_logo.png" alt="capitalone" className="w-40 h-auto"/>
-              </div>
-            </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/paycom-logo-white.png" alt="paycom" className="w-40 h-auto"/>
-              </div>
-            </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/chevron_white_logo.png" alt="chevron" className="w-48 h-auto"/>
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src={NORDsponsor1} alt="nordpass" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/RiceCS_logo.png" alt="ricecs" className="w-72 h-auto"/>
-              </div>
-            </div>
-             {/* --------------- ROW 2 --------------- */}
-             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/roblox_white.png" alt="roblox" className="w-44 h-auto"/>
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src={NORDsponsor2} alt="nordvpn" className="w-80 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/VEDO_logo.png" alt="vedo" className="w-44 h-auto"/>
-              </div>
-            </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src={NORDsponsor2} alt="nordvpn" className="w-80 h-auto"/>
-              </div>
-            </div>
-            {/* --------------- ROW 3 --------------- */}
-            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/kenkennedywhitelogo.png" alt="kenkennedy" className="w-48 h-auto"/>
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/RiceCS_logo.png" alt="ricecs" className="w-72 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src={NORDsponsor1} alt="nordpass" className="w-48 h-auto"/>
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/chevron_white_logo.png" alt="chevron" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/techtreeroot.png" alt="chevron" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/RedBull.png" alt="chevron" className="w-48 h-auto"/>
+              </div>
+            </div>
+              <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <h1 className = "text-white">...and more to come!</h1>
+              </div>
+            </div>
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/capitalone_white_logo.png" alt="capitalone" className="w-40 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/paycom-logo-white.png" alt="paycom" className="w-40 h-auto"/>
+              </div>
+            </div> */}
+             {/* --------------- ROW 2 --------------- */}
+             {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/roblox_white.png" alt="roblox" className="w-44 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/VEDO_logo.png" alt="vedo" className="w-44 h-auto"/>
+              </div>
+            </div> */}
+            {/* --------------- ROW 3 --------------- */}
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/kenkennedywhitelogo.png" alt="kenkennedy" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative items-center justify-center flex w-56 h-56 mx-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/REA-Logo_Formal.png" alt="rea" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-44 h-auto"/>
               </div>
-            </div>
+            </div> */}
             {/* --------------- ROW 4 --------------- */}
-            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/standout_white.png" alt="standout" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/sailywhite.png" alt="saily" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/GFG.png" alt="gfg" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-orange-800 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/LILIELAB.png" alt="lilielab" className="w-48 h-auto"/>
               </div>
-            </div>
+            </div> */}
           </div>
           </div>
       </div>
       {/* --------------- FAQ --------------- */}
       <div id="faq" className="flex flex-col items-center w-5/6 scroll-mt-24">
-        <h1 className = "text-black font-extrabold text-4xl text-center">FAQ</h1>
+        <h1 className = "text-white font-extrabold text-4xl text-center">FAQ</h1>
         <h1 className = "text-yellow-300/85 font-extrabold text-xl text-center mt-5 mb-5 ml-10 mr-10 md:ml-0 md:mr-0">
           {displayedTexts[4]}
         </h1>
@@ -456,11 +471,11 @@ export default function App(){
               const bgColor = index % 3 === 0 ? 'bg-yellow-300 bg-opacity-30 outline outline-yellow-300/85' : index % 3 === 1 ? 'bg-red-800 bg-opacity-30 outline outline-red-800/85' : 'bg-blue-800 bg-opacity-30 outline outline-blue-800/85';
               return (
                 <li key={index} className="flex flex-col mb-5">
-                  <div onClick={() => toggleAnswer(index)} className="flex flex-col mx-auto w-11/12 cursor-pointer font-medium text-black text-lg text-left mt-10">
+                  <div onClick={() => toggleAnswer(index)} className="flex flex-col mx-auto w-11/12 cursor-pointer font-medium text-white text-lg text-left mt-10">
                     {item.question}
                   </div>
                   {openIndex === index && (
-                    <div className={`flex flex-col rounded w-11/12 lg:w-83  ${bgColor} text-black text-lg ml-3 sm:ml-6 lg:ml-5 mt-5 p-4`}>
+                    <div className={`flex flex-col rounded w-11/12 lg:w-83  ${bgColor} text-white text-lg ml-3 sm:ml-6 lg:ml-5 mt-5 p-4`}>
                       {item.answer}
                       {item.link && (
                         <a
@@ -479,7 +494,7 @@ export default function App(){
           </ul>
       </div>
        {/* --------------- COPYRIGHT --------------- */}
-       <h1 className="text-center text-black mt-20">© 2025 HackRice. All Rights Reserved.
+       <h1 className="text-center text-white mt-20">© 2025 HackRice. All Rights Reserved.
        </h1>
     </div> 
   )
