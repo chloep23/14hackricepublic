@@ -48,13 +48,8 @@ export default function App(){
     {
       question: "What if I don't have a team before the event?",
       answer: "You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to."
-    },
-    {
-      question: "Where can I access the MLH code of conduct?",
-      answer: "Here! http://mlh.io/code-of-conduct"
     }
   ];
-
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
