@@ -42,7 +42,7 @@ const NavBar: React.FC = () => {
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
           <li className="relative group">
-            <a href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer" className="text-white">Apply</a>
+            <a href="https://linktr.ee/hackrice" target="_blank" rel="noreferrer" className="text-white">Apply</a>
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-[#1E40AF] scale-x-0 group-hover:scale-x-100 transform transition-transform origin-left"></span>
           </li>
         </ul>
