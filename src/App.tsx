@@ -151,7 +151,7 @@ export default function App(){
               <div className = "absolute flex flex-col items-center justify-center bg-black bg-opacity-75 rounded-xl ml-5 md:ml-8 mt-8 md:mt-8 p-3 h-72 w-5/6 sm:h-73 sm:w-82 md:h-73 md:w-73">
                 <h1 className = "text-center text-white text-xl sm:text-2xl font-medium">September 19-21, 2025</h1> 
                 <h2 className = "text-center text-white text-xl sm:text-2xl mt-6 font-medium">Rice Memorial Center <br/> @ Rice University</h2>
-                <a className="flex items-center justify-center hover:outline-purple-600/40 bg-purple-800 hover:bg-orange-600/15 bg-opacity-20 outline outline-purple-800 rounded-xl text-center text-white text-xl sm:text-2xl font-bold mt-6 h-14 w-36 sm:w-40" href="https://linktr.ee/hackrice14" target="_blank" rel="noreferrer"> apply now </a> 
+                <a className="flex items-center justify-center hover:outline-purple-600/40 bg-purple-800 hover:bg-orange-600/15 bg-opacity-20 outline outline-purple-800 rounded-xl text-center text-white text-xl sm:text-2xl font-bold mt-6 h-14 w-36 sm:w-40" href="https://linktr.ee/hackrice" target="_blank" rel="noreferrer"> apply now </a> 
               </div>
             </div>
           </div>
