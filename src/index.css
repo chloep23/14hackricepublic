@@ -69,3 +69,28 @@ code {
   80% { transform: translate(-2px, 4px); }
   100% { transform: translate(0, 0); }
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.race-track-border {
+  position: absolute;
+  top: 0;         
+  left: 20px;       
+  right: 15px;        
+  /* bottom: 100px;        */
+  border-left: 6px dashed rgba(255, 255, 255, 0.3);   /* transparent white */
+  border-right: 6px dashed rgba(255, 255, 255, 0.3);
+  border-bottom: none;
+  border-top: none;    /* NO top border */
+  border-radius: 0 0 20px 20px; /* rounded corners only at bottom */
+  box-sizing: border-box;
+  pointer-events: none;
+
+  z-index: 0;  /* Put behind images (which usually default to z-index:auto or higher) */
+  
+  animation: dashmove 2s linear infinite;
+}
+

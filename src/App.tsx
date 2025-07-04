@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import './index.css';
 import NORDsponsor1 from './NORD_NordPass_logo.png';
 import NORDsponsor2 from './NORD_NordVPN_logo.png';
+import RaceTrackBorder from './Mouse';
 
 
 interface FAQItem {
@@ -123,14 +124,20 @@ export default function App(){
   
   return (
     <div className="flex flex-col justify-center items-center h-auto w-screen m-auto left-0 right-0 overflow-x-hidden">
+    <a
+      id="mlh-trust-badge"
+      className="absolute w-16 h-auto z-10 top-0 right-12 md:right-16 md:w-20 lg:w-24"
+      href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=red"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-red.svg"
+        alt="Major League Hacking 2025 Hackathon Season"
+      />
+    </a>
 
-      <a id="mlh-trust-badge" className="absolute w-20 h-auto z-10 top-0 md:top-0 right-5 md:w-24 lg:w-36" 
-      href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=red" target="_blank" rel="noopener noreferrer">
-        <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-red.svg" 
-          alt="Major League Hacking 2025 Hackathon Season">
-        </img>
-      </a>
-
+    <RaceTrackBorder></RaceTrackBorder>
  {/* -------------- APPLY NOW BUTTON --------------- */} 
     <a className="fixed bottom-5 left-5 z-50 bg-white text-purple px-5 py-3 rounded-full shadow-xl hover:scale-105 transition-transform"
       href="https://linktr.ee/hackrice" target="_blank" rel="noreferrer">
