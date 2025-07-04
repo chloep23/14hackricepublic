@@ -159,15 +159,15 @@ export default function App(){
       
       {/* -------------- SCHEDULE --------------- */}
       <div id="schedule" className="flex flex-col w-11/12 mb-20 scroll-mt-24">
-        <h1 className = "text-center text-white font-extrabold text-4xl">2024 Sample Schedule</h1>
-        <h2 className="text-center text-yellow-300/85 font-extrabold text-xl mt-5 ml-10 mr-10 md:ml-0 md:mr-0">
-          Stay tuned for the 2025 schedule!
+        <h1 className = "text-center text-white font-extrabold text-4xl">Schedule</h1>
+        {/* <h2 className="text-center text-yellow-300/85 font-extrabold text-xl mt-5 ml-10 mr-10 md:ml-0 md:mr-0">
+          Stay tuned for the 2025 schedule! */}
           {/* {displayedTexts[1]} */}
-        </h2>
+        {/* </h2> */}
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-10 mt-10 mb-10 mx-4">
           {/* -------------- FRIDAY --------------- */}
           <div className="flex flex-col items-center rounded-lg">
-            <button className="relative outline outline-yellow-300/85 align-top rounded-xl text-center text-xl text-yellow-300/85 md:text-2xl font-bold h-12 w-40 md:h-16 md:w-52">Friday 9/20</button>
+            <button className="relative outline outline-yellow-300/85 align-top rounded-xl text-center text-xl text-yellow-300/85 md:text-2xl font-bold h-12 w-40 md:h-16 md:w-52">Friday 9/19</button>
             <button className="hover:scale-110 rounded-lg text-white text-left mt-10 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Rice Student Check-In</h1>
@@ -212,30 +212,30 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Mathworks Workshop</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">9:30 PM </h2>
-              </div> Learn useful tools from Mathworks to solve their challenge!
+              </div> TBD :D
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Cookies & Crafts</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Event</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">10:30 PM </h2>
-              </div> Join us for a late night snack with arts and crafts!
+              </div> TBD :D
             </button> 
           </div>
           {/* -------------- SATURDAY --------------- */}
           <div className="flex flex-col items-center rounded-lg mt-12 lg:mt-0">
-          <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/21</button>
+          <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/20</button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
                 <h2 className="ml-3 font-semibold text-right text-lg">10:30 AM </h2>
-              </div> Join MLH's GitHub Copilot workshop!
+              </div> Workshop 1
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Typing Tournament</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Activity 1</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">11:30 AM </h2>
-              </div> Win a prize at our typing speed tournament!
+              </div> TBD :D
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
@@ -245,21 +245,21 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Linkedin and Resume Workshop</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop 2</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">1:30 PM </h2>
-              </div> Join us for our Linkedin and resume building workshop!
+              </div> TBD :D
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Bob Ross Painting With MLH</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Activity 2</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">3:00 PM </h2>
-              </div> Take a break and paint some fun artwork with MLH!
+              </div> TBD :D
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">AWS Workshop</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop 3</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">4:30 PM </h2>
-              </div> Join us for a AI on AWS Cloud Services Workshop!
+              </div> TBD :D
             </button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
@@ -269,14 +269,14 @@ export default function App(){
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
-                <h1 className="mb-1 font-semibold text-base md:text-lg">Ramen Bar & Glowsticks</h1>
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Late Night Event</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">11:00 PM </h2>
-              </div> Have some late night fun with our ramen bar and glowsticks! 
+              </div> TBD :D
             </button> 
           </div>
           {/* -------------- SUNDAY --------------- */}
           <div className="flex flex-col items-center rounded-lg mt-12 lg:mt-0">
-            <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Sunday 9/22</button>
+            <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Sunday 9/21</button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
                 <h1 className="mb-1 font-semibold text-base md:text-lg">Breakfast</h1>
@@ -322,7 +322,7 @@ export default function App(){
             <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
               <div className="absolute outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44 flex flex-col items-center justify-center"></div>
               <div className="absolute outline outline-purple-800 rounded-xl w-56 md:w-60 h-32 flex flex-col items-center justify-center">
-                <h1 className="mb-3 font-semibold text-2xl text-center text-white">Social <br/> Impact</h1>
+                <h1 className="mb-3 font-semibold text-2xl text-center text-white">Social Impact</h1>
               </div>
               {/* <img className="absolute mt-36 h-28 w-28" src="/assets/BG_Pacman.png" alt="track1"/>
               <img className="absolute mt-36 h-28 w-28" src="/assets/Center_Pacman.png" alt="track1"/> */}
@@ -342,7 +342,9 @@ export default function App(){
             <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
               <div className="absolute flex flex-col justify-center outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44"></div>
               <div className="absolute flex flex-col justify-center outline outline-purple-800 rounded-xl w-56 md:w-60 h-32">
-                <h1 className="font-semibold text-2xl text-center text-white z-10">Productivity/Education</h1>
+                <h1 className="font-semibold text-2xl text-center text-white z-10">Productivity &</h1>
+                <h1 className="font-semibold text-2xl text-center text-white z-10">Education</h1>
+
               </div>
               {/* <img className="absolute ml-60 md:ml-65 mt-10 mb-10 h-28 w-28" src="/assets/BG_Ghost.png" alt="track3"/>
               <img className="absolute ml-60 md:ml-65 mt-10 mb-10 h-28 w-28" src="/assets/Teal_Right_Ghost2.png" alt="track3"/> */}
