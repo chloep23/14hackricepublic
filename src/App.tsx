@@ -124,17 +124,19 @@ export default function App(){
           {/* -------------- INFORMATION --------------- */}
             <div className="relative flex flex-col items-center justify-center h-100 w-81 sm:h-83 sm:w-96 lg:h-96">
               <div className="absolute outline bg-white-800 bg-opacity-20 outline-purple-300 rounded-xl ml-4 mt-8 p-8 h-99 w-11/12 sm:h-84 md:1/2 lg:h-3/4 mx-auto">
-                <h1 className="hidden font-medium text-lg text-center">
+                <h1 className="hidden font-medium text-sm text-center">
                   HackRice is Rice University's annual hackathon. It brings together over 400 of the brightest minds in the country to develop & showcase their creative and entrepreneurial talents. 
                   Participants form teams of up to 4 to work on a project — typically software, and sometimes hardware — in an environment designed for collaboration. Teams showcase projects after 36 hours of hacking. 
                   <br/> <br/> This is an excellent opportunity for students to build a network of creators, receive internship & job offers from world-class sponsors, and learn modern tools & systems.
+                  <br/> <br/> We hope to see you there!
                 </h1>
               </div>
               <div className="absolute outline bg-opacity-20 outline-purple-300 rounded-xl mr-4 p-8 h-99 w-11/12 sm:h-84 md:1/2 lg:h-3/4 mx-auto">
-                <h1 className="text-white font-medium text-lg text-center">
+                <h1 className="text-white font-medium text-sm text-center">
                   HackRice is Rice University's annual hackathon. It brings together over 400 of the brightest minds in the country to develop & showcase their creative and entrepreneurial talents. 
                   Participants form teams of up to 4 to work on a project — typically software, and sometimes hardware — in an environment designed for collaboration. Teams showcase projects after 36 hours of hacking. 
                   <br/> <br/> This is an excellent opportunity for students to build a network of creators, receive internship & job offers from world-class sponsors, and learn modern tools & systems.
+                  <br/> <br/> We hope to see you there!
                 </h1>
               </div>
             </div>
