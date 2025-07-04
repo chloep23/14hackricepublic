@@ -322,7 +322,7 @@ export default function App(){
             <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
               <div className="absolute outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44 flex flex-col items-center justify-center"></div>
               <div className="absolute outline outline-purple-800 rounded-xl w-56 md:w-60 h-32 flex flex-col items-center justify-center">
-                <h1 className="mb-3 font-semibold text-2xl text-center text-white">Game <br/> Development</h1>
+                <h1 className="mb-3 font-semibold text-2xl text-center text-white">Social <br/> Impact</h1>
               </div>
               {/* <img className="absolute mt-36 h-28 w-28" src="/assets/BG_Pacman.png" alt="track1"/>
               <img className="absolute mt-36 h-28 w-28" src="/assets/Center_Pacman.png" alt="track1"/> */}
@@ -332,7 +332,7 @@ export default function App(){
             <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
               <div className="absolute flex flex-col justify-center outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44"></div>
               <div className="absolute flex flex-col justify-center outline outline-purple-800 rounded-xl w-56 md:w-60 h-32">
-                <h1 className="font-semibold text-2xl text-center text-white z-10">Education</h1>
+                <h1 className="font-semibold text-2xl text-center text-white z-10">Healthcare</h1>
               </div>
               {/* <img className="absolute mr-62 md:mr-65 mt-10 mb-10 h-28 w-28" src="/assets/BG_Ghost.png" alt="track2"/>
               <img className="absolute mr-62 md:mr-65 mt-10 mb-10 h-28 w-28" src="/assets/Pink_Left_Ghost2.png" alt="track2"/> */}
@@ -342,7 +342,7 @@ export default function App(){
             <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
               <div className="absolute flex flex-col justify-center outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44"></div>
               <div className="absolute flex flex-col justify-center outline outline-purple-800 rounded-xl w-56 md:w-60 h-32">
-                <h1 className="font-semibold text-2xl text-center text-white z-10">Healthcare</h1>
+                <h1 className="font-semibold text-2xl text-center text-white z-10">Productivity/Education</h1>
               </div>
               {/* <img className="absolute ml-60 md:ml-65 mt-10 mb-10 h-28 w-28" src="/assets/BG_Ghost.png" alt="track3"/>
               <img className="absolute ml-60 md:ml-65 mt-10 mb-10 h-28 w-28" src="/assets/Teal_Right_Ghost2.png" alt="track3"/> */}
@@ -352,7 +352,7 @@ export default function App(){
             <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
               <div className="absolute flex flex-col justify-center outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44"></div>
               <div className="absolute flex flex-col justify-center outline outline-purple-800 rounded-xl w-56 md:w-60 h-32">
-                <h1 className="font-semibold text-2xl text-center text-white z-10">Sustainability</h1>
+                <h1 className="font-semibold text-2xl text-center text-white z-10">Sports</h1>
               </div>
               {/* <img className="absolute mt-36 h-28 w-28" src="/assets/BG_Ghost.png" alt="track4"/>
               <img className="absolute mt-36 h-28 w-28" src="/assets/Red_Ghost.png" alt="track4"/> */}
@@ -362,7 +362,7 @@ export default function App(){
             <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
               <div className="absolute flex flex-col justify-center outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44"></div>
               <div className="absolute flex flex-col justify-center outline outline-purple-800 rounded-xl w-56 md:w-60 h-32">
-                <h1 className="font-semibold text-2xl text-center text-white z-10">AI Innovation</h1>
+                <h1 className="font-semibold text-2xl text-center text-white z-10">Entrepreneurship</h1>
               </div>
               {/* <img className="absolute mt-36 h-28 w-28" src="/assets/BG_Ghost.png" alt="track5"/>
               <img className="absolute mt-36 h-28 w-28" src="/assets/Orange_Ghost.png" alt="track5"/> */}
@@ -411,7 +411,7 @@ export default function App(){
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/RedBull.png" alt="chevron" className="w-48 h-auto"/>
+                <img src="/assets/sponsors/redbull.png" alt="chevron" className="w-48 h-auto"/>
               </div>
             </div>
               <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
