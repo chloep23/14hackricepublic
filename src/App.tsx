@@ -10,6 +10,35 @@ interface FAQItem {
   link?: { href: string, text: string };
 }
 
+
+function CountdownTimer({ targetDate }: { targetDate: string }) {
+  const [timeLeft, setTimeLeft] = useState('');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const difference = new Date(targetDate).getTime() - new Date().getTime();
+      if (difference <= 0) {
+        setTimeLeft("Start Your Engines!");
+        clearInterval(interval);
+      } else {
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((difference / (1000 * 60)) % 60);
+        const seconds = Math.floor((difference / 1000) % 60);
+        setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [targetDate]);
+
+  return (
+    <div className="text-red-500 text-2xl font-bold px-4 py-2 rounded-lg mt-4">
+      Race begins in: {timeLeft}
+    </div>
+  );
+}
+
+
 export default function App(){
   const faqData: FAQItem[] = [
     {
@@ -101,19 +130,28 @@ export default function App(){
           alt="Major League Hacking 2025 Hackathon Season">
         </img>
       </a>
-      
+
+ {/* -------------- APPLY NOW BUTTON --------------- */} 
+    <a className="fixed bottom-5 left-5 z-50 bg-white text-purple px-5 py-3 rounded-full shadow-xl hover:scale-105 transition-transform"
+      href="https://linktr.ee/hackrice" target="_blank" rel="noreferrer">
+      Apply Here!
+    </a>
+
  {/* -------------- HEADER --------------- */} 
       <div id="home" className="flex flex-col h-screen w-screen justify-center items-center scroll-mt-24 pt-10">
         {/* -------------- COVER IMAGE --------------- */}
         <div className = "lg:hidden h-auto w-screen md:w-3/4 md:mt-5 mx-auto">
-          <img src= '/assets/hr15logo-new.png' alt="hackrice logo"></img>
+          <img src= '/assets/hr15logo-new.png' alt="hackrice logo"   className="transition-all hover:scale-105 hover:rotate-1"></img>
         </div>
         {/* <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-4 mb-8 pb-20">September 19-21, 2025</h1> */}
         <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto mt-8">
-          <img src= '/assets/hr15logo-new.png' alt="hacklogo"></img>
+          <img src= '/assets/hr15logo-new.png' alt="hacklogo"   className="transition-all hover:scale-105 hover:rotate-1"></img>
         </div>
       </div>
-      
+
+<CountdownTimer targetDate="2025-09-19T17:00:00" />
+
+
   {/* -------------- ABOUT --------------- */}
       <div id="about" className="flex flex-col items-center mx-auto left-0 right-0 mb-32 md:mb-44 lg:mb-20 scroll-mt-24 mt-16">
         <h1 className=" text-white font-extrabold text-3xl lg:text-4xl text-center">About</h1>
@@ -518,6 +556,12 @@ export default function App(){
             })}
           </ul>
       </div>
+
+    <div>
+      <h1 className="glitch text-white text-4xl md:text-4xl font-bold text-center mt-10" data-text="join us">
+        join us...
+      </h1>
+    </div>
        {/* --------------- COPYRIGHT --------------- */}
        <h1 className="text-center text-white mt-20">© 2025 HackRice. All Rights Reserved.
        </h1>
