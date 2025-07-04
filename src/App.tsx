@@ -228,8 +228,9 @@ export default function App(){
           <button className="relative text-center text-xl text-yellow-300/85 md:text-2xl font-bold align-top rounded-xl outline outline-yellow-300/85 h-12 w-40 md:h-16 md:w-52">Saturday 9/20</button>
             <button className="hover:scale-110 text-white text-left rounded-lg mt-10 md:p-3 w-full">
               <div className="flex justify-between">
+                <h1 className="mb-1 font-semibold text-base md:text-lg">Workshop 1</h1>
                 <h2 className="ml-3 font-semibold text-right text-lg">10:30 AM </h2>
-              </div> Workshop 1
+              </div> TBD :D
             </button> 
             <button className="hover:scale-110 text-white text-left rounded-lg mt-5 md:mt-0 md:p-3 w-full">
               <div className="flex justify-between">
