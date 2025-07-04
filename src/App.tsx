@@ -461,7 +461,7 @@ export default function App(){
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/redbull.png" alt="redbull" className="w-48 h-auto"/>
+                <img src="/assets/sponsors/RedBull.png" alt="redbull" className="w-48 h-auto"/>
               </div>
             </div>
               <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
