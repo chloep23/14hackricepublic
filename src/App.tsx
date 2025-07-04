@@ -106,11 +106,11 @@ export default function App(){
       <div id="home" className="flex flex-col h-screen w-screen justify-center items-center scroll-mt-24 pt-10">
         {/* -------------- COVER IMAGE --------------- */}
         <div className = "lg:hidden h-auto w-screen md:w-3/4 md:mt-5 mx-auto">
-          <img src= '/assets/hr15logo.png' alt="hackrice logo"></img>
+          <img src= '/assets/hr15logo-new.png' alt="hackrice logo"></img>
         </div>
         {/* <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-4 mb-8 pb-20">September 19-21, 2025</h1> */}
         <div className = "hidden lg:block h-auto w-screen lg:w-2/3 mx-auto mt-8">
-          <img src= '/assets/hr15logo.png' alt="hacklogo"></img>
+          <img src= '/assets/hr15logo-new.png' alt="hacklogo"></img>
         </div>
       </div>
       
