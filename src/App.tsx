@@ -78,7 +78,11 @@ export default function App(){
     {
       question: "What if I don't have a team before the event?",
       answer: "You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to."
-    }
+    },
+    {
+      question: "Do you offer travel stipends?",
+      answer: "That depends on our funding! Check back closer to the event to see the status of travel stipends."
+    },
   ];
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -189,15 +193,15 @@ export default function App(){
             <div className="relative flex flex-col items-center lg:ml-20 mt-10 sm:mt-20 lg:mt-0 h-81 w-81 sm:h-80 sm:w-84 md:w-96 lg:w-81">
               <div className="absolute outline outline-purple-300 rounded-xl mr-4 p-8 h-80 w-11/12 md:h--3/4 md:w-80">
                 <h1 className="invisible text-center text-white text-xl font-medium sm:mb-4 sm:mt-0 md:mt-4 lg:block">September 19, 2025 - September 21, 2025</h1> 
-                <h2 className="invisible text-center text-white text-xl font-medium max-w-64 sm:max-w-full lg:block">Rice Memorial Center @ Rice University</h2>
+                <h2 className="invisible text-center text-white text-xl font-medium max-w-64 sm:max-w-full lg:block">Rice Student Center @ Rice University</h2>
               </div>
               <div className = "absolute bg-gradient-to-b from-purple-300/70 via-purple-500/70 to-orange-700/70 bg-opacity-15 rounded-xl ml-4 md:ml-8 mt-4 p-8 h-80 w-11/12 sm:h-81 md:h-81 md:w-81">
                 <h1 className = "invisible text-center text-white text-xl font-medium sm:mb-4 mb-3 md:mt-4">September 19, 2025 - September 21, 2025</h1> 
-                <h2 className = "invisible text-center text-white m-auto text-xl font-medium max-w-64 sm:max-w-full">Rice Memorial Center @ Rice University</h2>
+                <h2 className = "invisible text-center text-white m-auto text-xl font-medium max-w-64 sm:max-w-full">Rice Student Center @ Rice University</h2>
               </div>
               <div className = "absolute flex flex-col items-center justify-center bg-black bg-opacity-75 rounded-xl ml-5 md:ml-8 mt-8 md:mt-8 p-3 h-72 w-5/6 sm:h-73 sm:w-82 md:h-73 md:w-73">
                 <h1 className = "text-center text-white text-xl sm:text-2xl font-medium">September 19-21, 2025</h1> 
-                <h2 className = "text-center text-white text-xl sm:text-2xl mt-6 font-medium">Rice Memorial Center <br/> @ Rice University</h2>
+                <h2 className = "text-center text-white text-xl sm:text-2xl mt-6 font-medium">Rice Student Center <br/> @ Rice University</h2>
                 <a className="flex items-center justify-center hover:outline-purple-600/40 bg-purple-800 hover:bg-orange-600/15 bg-opacity-20 outline outline-purple-800 rounded-xl text-center text-white text-xl sm:text-2xl font-bold mt-6 h-14 w-36 sm:w-40" href="https://linktr.ee/hackrice" target="_blank" rel="noreferrer"> apply now </a> 
               </div>
             </div>
