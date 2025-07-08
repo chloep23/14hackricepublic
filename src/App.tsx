@@ -417,6 +417,17 @@ export default function App(){
               {/* <img className="absolute mt-36 h-28 w-28" src="/assets/BG_Ghost.png" alt="track5"/>
               <img className="absolute mt-36 h-28 w-28" src="/assets/Orange_Ghost.png" alt="track5"/> */}
             </div>
+
+            {/* Track 6*/}
+            <div className="relative flex flex-col w-72 h-40 mx-auto items-center justify-center hover:scale-110 text-black text-left rounded-lg">
+              <div className="absolute flex flex-col justify-center outline bg-orange-800 bg-opacity-15 outline-purple-300 rounded-xl w-65 md:w-72 h-44"></div>
+              <div className="absolute flex flex-col justify-center outline outline-purple-800 rounded-xl w-56 md:w-60 h-32">
+                <h1 className="font-semibold text-2xl text-center text-white z-10">Finance</h1>
+              </div>
+              {/* <img className="absolute mt-36 h-28 w-28" src="/assets/BG_Ghost.png" alt="track5"/>
+              <img className="absolute mt-36 h-28 w-28" src="/assets/Orange_Ghost.png" alt="track5"/> */}
+            </div>
+
           </div>
         </div>
       </div>
@@ -447,6 +458,11 @@ export default function App(){
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/RiceCS_logo.png" alt="ricecs" className="w-72 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/google-white-logo.png" alt="nordvpn" className="w-80 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
