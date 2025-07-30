@@ -456,29 +456,44 @@ export default function App(){
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
+                <img src="/assets/sponsors/NORD_protect.png" alt="incogni" className="w-44 h-auto"/>
               </div>
             </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-44 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/sailywhite.png" alt="saily" className="w-48 h-auto"/>
+              </div>
+            </div>
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
+              </div>
+            </div> */}
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/RiceCS_logo.png" alt="ricecs" className="w-72 h-auto"/>
               </div>
             </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/google-cloud.png" alt="nordvpn" className="w-80 h-auto"/>
               </div>
-            </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+            </div> */}
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/wolfram-alpha.png" alt="nordvpn" className="w-80 h-auto"/>
               </div>
-            </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+            </div> */}
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/goldman-sachs.png" alt="nordvpn" className="w-80 h-auto"/>
               </div>
-            </div>
+            </div> */}
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/chevron_white_logo.png" alt="chevron" className="w-48 h-auto"/>
@@ -496,7 +511,7 @@ export default function App(){
             </div>
               <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <h1 className = "text-white">...and more to come!</h1>
+                <h1 className = "text-white p-4"> ...and many more big names to come!</h1>
               </div>
             </div>
             {/* <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
@@ -530,21 +545,11 @@ export default function App(){
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/REA-Logo_Formal.png" alt="rea" className="w-48 h-auto"/>
               </div>
-            </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-44 h-auto"/>
-              </div>
-            </div> */}
+            </div>}
             {/* --------------- ROW 4 --------------- */}
             {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/standout_white.png" alt="standout" className="w-48 h-auto"/>
-              </div>
-            </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/sailywhite.png" alt="saily" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
