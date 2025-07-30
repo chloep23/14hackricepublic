@@ -469,16 +469,16 @@ export default function App(){
                 <img src="/assets/sponsors/sailywhite.png" alt="saily" className="w-48 h-auto"/>
               </div>
             </div>
-            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
-              </div>
-            </div> */}
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/RiceCS_logo.png" alt="ricecs" className="w-72 h-auto"/>
               </div>
             </div>
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/Mathworks_logo.png" alt="mathworks" className="w-48 h-auto"/>
+              </div>
+            </div> */}
             {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/google-cloud.png" alt="nordvpn" className="w-80 h-auto"/>
@@ -502,6 +502,11 @@ export default function App(){
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/techtreeroot.png" alt="techtreeroot" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/mastra.png" alt="mathworks" className="w-48 h-auto"/>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
