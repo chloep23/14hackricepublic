@@ -446,27 +446,27 @@ export default function App(){
              {/* --------------- ROW 1 --------------- */}
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src={NORDsponsor1} alt="nordpass" className="w-48 h-auto"/>
+                <a href= "https://nordpass.com/" target="_blank"><img src={NORDsponsor1} alt="nordpass" className="w-48 h-auto"/></a>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src={NORDsponsor2} alt="nordvpn" className="w-80 h-auto"/>
+                <a href= "https://nordvpn.com/coupon/deal/?coupon=hackathons&utm_medium=affiliate&utm_term=&utm_content&utm_campaign=off600&utm_source=aff92203/rel=%22nofollow%22" target="_blank"><img src={NORDsponsor2} alt="nordvpn" className="w-80 h-auto"/></a>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/NORD_protect.png" alt="incogni" className="w-44 h-auto"/>
+                <a href= "https://nordprotect.com/ " target="_blank"><img src="/assets/sponsors/NORD_protect.png" alt="incogni" className="w-44 h-auto"/></a>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-44 h-auto"/>
+                <a href= "https://incogni.com/" target="_blank"><img src="/assets/sponsors/NORD_Incogni_logo.png" alt="incogni" className="w-44 h-auto"/></a>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/sailywhite.png" alt="saily" className="w-48 h-auto"/>
+                <a href= "https://saily.com/" target="_blank"><img src="/assets/sponsors/sailywhite.png" alt="saily" className="w-48 h-auto"/></a>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
@@ -506,7 +506,7 @@ export default function App(){
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/mastra.png" alt="mathworks" className="w-48 h-auto"/>
+                <a href="https://mastra.ai/" target="_blank"><img src="/assets/sponsors/mastra.png" alt="mathworks" className="w-48 h-auto"/></a>
               </div>
             </div>
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
