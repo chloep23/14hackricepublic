@@ -486,11 +486,6 @@ export default function App(){
             </div> */}
             {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
-                <img src="/assets/sponsors/wolfram-alpha.png" alt="nordvpn" className="w-80 h-auto"/>
-              </div>
-            </div> */}
-            {/* <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
-              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/goldman-sachs.png" alt="nordvpn" className="w-80 h-auto"/>
               </div>
             </div> */}
@@ -499,11 +494,11 @@ export default function App(){
                 <img src="/assets/sponsors/chevron_white_logo.png" alt="chevron" className="w-48 h-auto"/>
               </div>
             </div>
-            <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
+            {/* <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/techtreeroot.png" alt="techtreeroot" className="w-48 h-auto"/>
               </div>
-            </div>
+            </div> */}
             <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <a href="https://mastra.ai/" target="_blank"><img src="/assets/sponsors/mastra.png" alt="mathworks" className="w-48 h-auto"/></a>
@@ -512,6 +507,11 @@ export default function App(){
             <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
               <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
                 <img src="/assets/sponsors/RedBull.png" alt="redbull" className="w-48 h-auto"/>
+              </div>
+            </div>
+            <div className = "relative flex items-center justify-center w-56 h-56 m-auto">
+              <div className = "absolute flex items-center justify-center bg-orange-800 bg-opacity-15 outline outline-purple-300 rounded-2xl h-36 w-52 lg:h-40 lg:w-60">
+                <img src="/assets/sponsors/jenis-ice-creams.png" alt="jeni's ice creams" className="w-48 h-auto"/>
               </div>
             </div>
               <div className = "relative flex items-center justify-center w-56 h-56 mx-auto">
